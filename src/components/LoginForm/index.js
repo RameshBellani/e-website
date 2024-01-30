@@ -39,7 +39,7 @@ class LoginForm extends Component {
     if (username.toLowerCase().trim(' ') === 'ramesh') username = 'rahul'
     if (password === 'ramesh@2023') password = 'rahul@2021'
     const userDetails = {username, password}
-    const url =  'https://apis.in/login'
+    const url =  'https://apis.ccbp.in/login'
     const options = {
       method: 'POST',
       body: JSON.stringify(userDetails),
